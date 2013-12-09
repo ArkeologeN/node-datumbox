@@ -1,0 +1,33 @@
+{
+  "name": "datumbox",
+  "description": "DatumBox API Wrapper in Nodejs",
+  "keywords": [
+    "npm",
+    "datumbox",
+    "analysis",
+    "sentiment",
+    "wrapper"
+  ],
+  "main": "./lib/main",
+  "author": "Hamza Waqas <hamzawaqas@live.com> (http://github.com/ArkeologeN)",
+  "version": "0.1.0",
+  "engines": {
+      "node": ">=0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArkeologeN/node-datumbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArkeologeN/node-datumbox/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shapeshed/skeletor/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "request": "~2.29.0"
+  }
+}
