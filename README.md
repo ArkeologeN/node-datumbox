@@ -1,4 +1,4 @@
-# node-datumbox -- Simplified HTTP Wrapper for DatumBox API
+# Simplified HTTP Wrapper for DatumBox API
 [DatumBox](http://www.datumbox.com/ "DatumBox Website")
 
 ## Use as defined [DatumBox Sandbox](http://www.datumbox.com/app/webroot/api-sandbox/ "DatumBox Sandbox API Browser")
@@ -208,7 +208,7 @@ datum.documentSimilarity("DOCUMENT_CONTENT_1", "DOCUMENT_CONTENT_2",, function(e
 });
 ```
 
-## Document Similarity
+## Magic Caller
 
 Get the sentiments of DatumService via magic by defining service on the fly.
 
@@ -220,3 +220,9 @@ datum.magic("SentimentAnalysis", "TEXT_TO_FIND_HERE", function(err, data) {
     console.log(data);  // Remarks here.
 });
 ```
+
+## Contributors
+
+Right now, the project is only getting developed by:
+* [Hamza Waqas](mailto: hamzawaqas@live.com) - He lives at [@HamzaWaqas](https://twitter.com/HamzaWaqas) and you can follow him there ;-)
+* That's you!
