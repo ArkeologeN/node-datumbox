@@ -1,4 +1,4 @@
-# Simplified HTTP Wrapper for DatumBox API
+# DatumBox API for Node.js
 [DatumBox](http://www.datumbox.com/ "DatumBox Website")
 
 ## Use as defined [DatumBox Sandbox](http://www.datumbox.com/app/webroot/api-sandbox/ "DatumBox Sandbox API Browser")
