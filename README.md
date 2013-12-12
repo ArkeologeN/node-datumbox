@@ -25,6 +25,29 @@ Initialize the module with your api key.
 var datum = require('datumbox').factory("API_KEY_HERE");
 ```
 
+This big blast we added in version `0.1.2` is, you can now make `asynchronous` parallel service request from `DatumBox` on your text. How?
+
+```javascript
+datum.parallel(
+    "So, do you dare to find different sentiments of me in one request?", 
+    ['SentimentAnalysis', 'TwitterSentimentAnalysis', 'GenderDetection'],
+   function(err, results) {
+       if ( err )
+        return console.error(err);
+        
+        // results is [] and have the output in same service format.
+   }
+);
+```
+
+Services values that are available for batch should be within
+```javascript
+'SentimentAnalysis', 'TwitterSentimentAnalysis', 'SubjectivityAnalysis',
+'TopicClassification', 'SpamDetection', 'AdultContentDetection',
+'ReadabilityAssessment', 'LanguageDetection', 'CommercialDetection',
+'EducationalDetection', 'GenderDetection', 'TextExtraction',
+```
+
 ## Sentiment Analysis
 
 Identifies the Sentiment of the Document
@@ -109,7 +132,7 @@ datum.adultContentDetection("TEXT_TO_FIND_HERE", function(err, data) {
 Evaluates the Readability of the Document
 
 ```javascript
-datum.adultContentDetection("TEXT_TO_FIND_HERE", function(err, data) {
+datum.readabilityAssessment("TEXT_TO_FIND_HERE", function(err, data) {
     if ( err )
         return console.log(err);
 

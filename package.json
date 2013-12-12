@@ -10,9 +10,9 @@
   ],
   "main": "./lib/main",
   "author": "Hamza Waqas <hamzawaqas@live.com> (http://github.com/ArkeologeN)",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "engines": {
-      "node": ">=0.6"
+    "node": ">=0.6"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,12 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/shapeshed/skeletor/raw/master/LICENSE"
+      "url": "https://raw.github.com/ArkeologeN/node-datumbox/master/LICENSE"
     }
   ],
   "dependencies": {
-    "request": "~2.29.0"
+    "request": "~2.29.0",
+    "async": "~0.2.9",
+    "lodash": "~2.4.1"
   }
 }
