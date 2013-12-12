@@ -10,7 +10,7 @@
   ],
   "main": "./lib/main",
   "author": "Hamza Waqas <hamzawaqas@live.com> (http://github.com/ArkeologeN)",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "engines": {
     "node": ">=0.6"
   },

@@ -25,7 +25,7 @@ Initialize the module with your api key.
 var datum = require('datumbox').factory("API_KEY_HERE");
 ```
 
-This big blast we added in version `0.1.2` is, you can now make `asynchronous` parallel service request from `DatumBox` on your text. How?
+This big blast we added in version `1.0.1` is, you can now make `asynchronous` parallel service request from `DatumBox` on your text. How?
 
 ```javascript
 datum.parallel(
