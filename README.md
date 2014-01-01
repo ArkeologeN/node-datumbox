@@ -12,11 +12,6 @@ The Datumbox is a web service which allows you to use our tools from your websit
 
 Our Web Service uses "REST-Like" RPC-style operations over HTTP POST requests with parameters URL encoded into the request and its response is encoded in JSON. It is designed to be easy to use and you can implement it in any model computer language that allows you generating web requests.
 
-How to use the API Client?
-=======================
-
-All you need to do is download the sample code, edit example.php and place your API Key. To get an API Key sign up to datumbox.com service and visit the API Access panel in your profile.
-
 Getting Started
 =================
 
