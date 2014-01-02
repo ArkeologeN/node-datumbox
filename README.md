@@ -1,6 +1,8 @@
 # DatumBox API for Node.js
 [DatumBox](http://www.datumbox.com/ "DatumBox Website")
 
+[![Build Status](https://travis-ci.org/ArkeologeN/node-datumbox.png?branch=master)](https://travis-ci.org/ArkeologeN/node-datumbox)
+
 ## Use as defined [DatumBox Sandbox](http://www.datumbox.com/app/webroot/api-sandbox/ "DatumBox Sandbox API Browser")
 
 This module is designed to make the DatumBox API available in Node.js. Its pretty inspired and ported from PHP Wrapper.
