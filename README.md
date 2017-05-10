@@ -244,5 +244,5 @@ datum.magic("SentimentAnalysis", "TEXT_TO_FIND_HERE", function(err, data) {
 ## Contributors
 
 Right now, the project is only getting developed by:
-* [Hamza Waqas](mailto: hamzawaqas@live.com) - He lives at [@HamzaWaqas](https://twitter.com/HamzaWaqas) and you can follow him there ;-)
+* He lives at [@HamzaWaqas](https://twitter.com/HamzaWaqas) and you can follow him there ;-)
 * That's you!
